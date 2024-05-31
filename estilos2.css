@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+style{
+    FLOAT position: left;
+
+}
+
+
+body{
+    font-family: "Calibri light";
+}
+
+
+header{
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+main .foto{
+    width: 150px;
+    height: 150px;
+
+    border-radius: 100%;
+    margin: -90px 0 20px 0;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+footer{
+    background-color:hsl(211, 100%, 66%);
+    text-align: right;
+    padding: 25px;
+
+}
+
+.contenedor{
+    background: rgb(122, 171, 255);
+    border-style: solid;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("Banner\ ubi.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(72, 148, 255);
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: rgb(70, 89, 230);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
+
+.boton.btn{
+    background: red;
+    border-radius: 5px;
+}
+.boton a{
+    background: teal;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 15px auto;
+    text-align: center;
+}
